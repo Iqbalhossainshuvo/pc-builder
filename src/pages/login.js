@@ -13,7 +13,7 @@ const LoginPage = () => {
           className="bg-blue-400 hover:bg-blue-900 text-white px-4 py-2 rounded-md"
           onClick={() =>
             signIn("github", {
-              callbackUrl: "http://localhost:3000/login",
+              callbackUrl: `${process.env.URL}/login`,
             })
           }
         >

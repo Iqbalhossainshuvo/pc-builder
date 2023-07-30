@@ -11,7 +11,7 @@ export const authOptions = {
   ],
 
   pages: {
-    signIn: "http://localhost:3000/api/login",
+    signIn: `${process.env.URL}api/login`,
   },
 };
 
